@@ -33,10 +33,9 @@ const Hero = () => {
             className="h-full w-full object-contain object-left"
           />
         </div>
-        <div className="hidden max-w-[30%] w-full md:flex md:items-end p-7">
-            <p className="text-4xl text-balance">
-              We help organizations build tailored AI systems to solve the
-              world&apos;s hardest problems.
+        <div className="hidden max-w-[30%] w-full md:flex md:items-end px-7">
+            <p className="text-xl text-balance text-orange-600 px-3 rounded-md py-1">
+              Tensorly is focused to build sovereign, open-weight AI technology frontier.
             </p>
           </div>
       </div>
