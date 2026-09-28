@@ -27,8 +27,9 @@ body {
 }
 
 .container{
-  @apply  md:max-w-[1440px] w-full mx-auto;
+  @apply md:max-w-[1740px] w-full mx-auto;
 }
+
 
 .inner-container {
   @apply py-7
