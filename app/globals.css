@@ -34,3 +34,6 @@ body {
 .inner-container {
   @apply py-7
 }
+.section{
+  @apply border-x border-[#27272b]
+}

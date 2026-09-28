@@ -39,7 +39,7 @@ const Navbar = () => {
               Start building
             </Link>
 
-            <Link className={navItemClass} href="">
+            <Link className={`${navItemClass} bg-foreground text-background`} href="">
               Get in touch
             </Link>
           </div>
