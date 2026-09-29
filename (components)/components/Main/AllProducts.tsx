@@ -63,6 +63,56 @@ const AllProducts = () => {
               </div>
             </Link>
           </div>
+          <div className="w-full flex flex-row flex-wrap lg:flex-nowrap items-end justify-center lg:translate-x-6 translate-y-px">
+            <div className="w-full flex flex-row flex-wrap lg:flex-nowrap items-end justify-center lg:translate-x-6 translate-y-px ">
+              <Link
+                href="/"
+                className="z-20 group  w-full lg:w-50 h-30 lg:h-50 bg-orange-600"
+              >
+                <div className="lg:group-hover:translate-x-20 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
+                  <div className="aspect-square w-8 flex justify-center items-center">
+                    <span className="relative inline-block w-7">
+                      Frontier models
+                    </span>
+                  </div>
+                </div>
+              </Link>
+
+              <div
+                className="hidden lg:block aspect-square h-20 shrink-0 bg-[#27272b]"
+              />
+
+              <Link
+                href="/"
+                className="group bg-cyan-400 z-20 w-full lg:w-100 h-40 lg:h-50 shrink-0 border border-[#27272b]"
+              >
+                <div className="lg:group-hover:translate-x-20 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] ">
+                  <div className="aspect-square w-8 flex justify-center items-center bg-orange-medium text-white"></div>
+
+                  <div>
+                    <p className="">
+                      AI Cloud
+                    </p>
+                    <p className="">
+                      Frontier-scale infrastructure for training and inference.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+              <div
+                className="hidden tech-dot tech-dot-top-right z-10 lg:block aspect-square h-20 shrink-0 bg-[#27272b] border-x-0"
+              />
+
+              <div
+                className="hidden lg:block aspect-square h-50 shrink-0 border-y-0  bg-[#1a1a1e] border-[#27272b]"
+              />
+
+              <div
+                className="hidden lg:block absolute right-0 bottom-0 lg:relative aspect-square w-15 h-15 shrink-0 rotate-45 origin-bottom-right -translate-x-4.5 bg-[#27272b] border border-[#27272b] "
+              />
+            </div>
+          </div>
         </div>
       </section>
     </div>
