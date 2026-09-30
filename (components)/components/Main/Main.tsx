@@ -3,6 +3,7 @@ import Hero from './Hero'
 import AllProducts from './AllProducts'
 import AutonomousWork from './AutonomousWork/AutonomousWork'
 import Support from './Support'
+import AIPrivacy from './AIPrivacy'
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <AllProducts/>
       <AutonomousWork/>
       <Support/>
+      <AIPrivacy/>
     </div>
   )
 }
