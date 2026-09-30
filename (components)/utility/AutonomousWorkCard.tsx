@@ -1,0 +1,76 @@
+import Image from "next/image";
+import React from "react";
+import { AutonomousWorkCardProps } from "@/Types/AutonomousWorkItemsType";
+
+const AutonomousWorkCard = ({
+  title,
+  description,
+  buttonText,
+  image,
+  imageAlt = "content image",
+  tags,
+}: AutonomousWorkCardProps) => {
+  return (
+    <div className="">
+      {/* Header */}
+      <div className="border-y border-[#27272b]">
+        <div className="flex min-h-26 w-full items-center justify-between px-4 py-6 md:px-6">
+          <div>
+            <p className="text-5xl">{title}</p>
+          </div>
+
+          <button className="flex items-center gap-3 rounded-md bg-[#202023] px-4 py-3 text-lg">
+            <span>{buttonText}</span>
+
+            <span className="text-lg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-chevrons-right preview-icon"
+              >
+                <path d="m6 17 5-5-5-5" />
+                <path d="m13 17 5-5-5-5" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      {/* Description */}
+      <div className="px-4 py-6 md:px-6">
+        <p className="text-base md:text-xl">{description}</p>
+      </div>
+
+      {/* Image + Tags */}
+      <div className="px-4 md:px-6">
+        <Image
+          src={image}
+          width={1700}
+          height={1200}
+          alt={imageAlt}
+          className="h-auto w-full object-contain"
+        />
+
+        <div className="flex flex-wrap gap-2 py-6">
+          {tags.map((item) => (
+            <span
+              key={item}
+              className="bg-[#1c1c1f] px-2 py-1 font-mono uppercase"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AutonomousWorkCard;

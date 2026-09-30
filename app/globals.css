@@ -35,5 +35,5 @@ body {
   @apply py-7
 }
 .section{
-  @apply border-x border-[#27272b]
+  @apply border-x border-b border-[#27272b]
 }
