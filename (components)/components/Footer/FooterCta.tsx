@@ -4,7 +4,7 @@ import Image from "next/image";
 const FooterCta = () => {
   return (
     <div className="relative">
-      <div className="bg-[#ff5229] p-20 flex flex-row mt-10 items-center justify-between">
+      <div className="bg-[#ff5229] p-20 flex flex-row mt-20 items-center justify-between">
         <div className="pb-3">
           <div>
             <p className="font-thin">BUILD YOUR OWN AI IDEA</p>

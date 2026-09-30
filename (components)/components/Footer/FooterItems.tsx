@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const footerItems = [
@@ -39,7 +40,6 @@ const footerItems = [
       { name: "Brand", href: "/" },
     ],
   },
-
   {
     title: "Company",
     items: [
@@ -58,7 +58,7 @@ const FooterItems = () => {
         <section className="section">
           <div className="grid grid-cols-2 md:grid-cols-4">
             {footerItems.map((section) => (
-              <div key={section.title} className="border border-[#27272b]">
+              <div key={section.title} className="border-x border-[#27272b]">
                 <div className="p-7">
                   <div className="pb-3">
                     <p className="text-xl text-[#6d6d78]">{section.title}</p>
@@ -80,6 +80,24 @@ const FooterItems = () => {
             ))}
           </div>
         </section>
+      </div>
+      <div className="border border-[#27272b]">
+        <div className="container flex flex-col md:flex-row items-center justify-between border-x border-[#27272b] p-7">
+          <div>
+            <span>
+              Source and Inspiration form{" "}
+              <Link href={"https://mistral.ai/"} className="text-[#ff5229]">
+                Mistral AI
+              </Link>{" "}
+            </span>
+          </div>
+          <div className="flex flex-col lg:flex-row gap-3">
+            <Link href={""}>Tensorly</Link>
+            <Link href={""}>Privacy ploicy</Link>
+            <Link href={""}>Terms and conditions</Link>
+            <Link href={""}>Terms of use</Link>
+          </div>
+        </div>
       </div>
     </div>
   );
