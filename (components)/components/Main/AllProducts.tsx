@@ -3,7 +3,7 @@ import React from "react";
 
 const AllProducts = () => {
   return (
-    <div>
+    <div className="container">
       <section className="section">
         <div className="pt-10 lg:pt-20 pb-10 lg:pb-20">
           <div className="w-full text-center py-7">

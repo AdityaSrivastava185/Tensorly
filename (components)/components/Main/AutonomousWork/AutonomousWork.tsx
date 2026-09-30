@@ -95,7 +95,7 @@ const autonomousWorkItems = [
 
 const AutonomousWork = () => {
   return (
-    <>
+    <div className="container">
       <section className="w-full md:px-10 section">
         <div className="mx-auto w-full max-w-432">
           <div className="grid grid-cols-1 md:grid-cols-10">
@@ -118,7 +118,7 @@ const AutonomousWork = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

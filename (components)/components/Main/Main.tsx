@@ -4,6 +4,7 @@ import AllProducts from './AllProducts'
 import AutonomousWork from './AutonomousWork/AutonomousWork'
 import Support from './Support'
 import AIPrivacy from './AIPrivacy'
+import Deploy from './Deploy'
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <AutonomousWork/>
       <Support/>
       <AIPrivacy/>
+      <Deploy/>
     </div>
   )
 }
