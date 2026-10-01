@@ -54,17 +54,23 @@ const footerItems = [
 const FooterItems = () => {
   return (
     <div>
+      {/* Footer links */}
       <div className="container">
         <section className="section">
-          <div className="grid grid-cols-2 md:grid-cols-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             {footerItems.map((section) => (
-              <div key={section.title} className="border-x border-[#27272b]">
-                <div className="p-7">
+              <div
+                key={section.title}
+                className="border-b border-[#27272b] sm:border-x sm:border-b lg:border-x lg:border-b-0"
+              >
+                <div className="p-5 sm:p-6 md:p-7">
                   <div className="pb-3">
-                    <p className="text-xl text-[#6d6d78]">{section.title}</p>
+                    <p className="text-xl text-[#6d6d78] md:text-xl">
+                      {section.title}
+                    </p>
                   </div>
 
-                  <div className="flex flex-col items-start gap-2 text-md">
+                  <div className="flex flex-col items-start gap-2  md:text-md">
                     {section.items.map((item) => (
                       <a
                         key={item.name}
@@ -81,21 +87,40 @@ const FooterItems = () => {
           </div>
         </section>
       </div>
+
+      {/* Bottom footer */}
       <div className="border border-[#27272b]">
-        <div className="container flex flex-col md:flex-row items-center justify-between border-x border-[#27272b] p-7">
-          <div>
+        <div className="container flex flex-col gap-5 border-x border-[#27272b] p-5 sm:p-6 md:flex-row md:items-center md:justify-between md:p-7">
+          {/* Source */}
+          <div className="text-lg">
             <span>
-              Source and Inspiration form{" "}
-              <Link href={"https://mistral.ai/"} className="text-[#ff5229]">
+              Source and Inspiration from{" "}
+              <Link
+                href="https://mistral.ai/"
+                className="text-[#ff5229] transition-colors hover:text-[#ff5229]/80"
+              >
                 Mistral AI
-              </Link>{" "}
+              </Link>
             </span>
           </div>
-          <div className="flex flex-col lg:flex-row gap-3">
-            <Link href={""}>Tensorly</Link>
-            <Link href={""}>Privacy ploicy</Link>
-            <Link href={""}>Terms and conditions</Link>
-            <Link href={""}>Terms of use</Link>
+
+          {/* Legal / brand links */}
+          <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-2 md:justify-end md:text-base">
+            <Link href="" className="hover:text-[#ff5229]">
+              Tensorly
+            </Link>
+
+            <Link href="" className="hover:text-[#ff5229]">
+              Privacy policy
+            </Link>
+
+            <Link href="" className="hover:text-[#ff5229]">
+              Terms and conditions
+            </Link>
+
+            <Link href="" className="hover:text-[#ff5229]">
+              Terms of use
+            </Link>
           </div>
         </div>
       </div>

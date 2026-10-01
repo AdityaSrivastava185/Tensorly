@@ -4,7 +4,7 @@ const AIPrivacy = () => {
   return (
     <div className="container">
       <section className="section">
-        <div className="py-20">
+        <div className="py-7 md:py-20">
           <div className="flex flex-col items-center justify-center gap-3">
             <div>
               <p className="text-sm text-center">
@@ -12,7 +12,7 @@ const AIPrivacy = () => {
               </p>
             </div>
             <div className="max-w-6xl mx-auto">
-              <p className="text-6xl text-center">
+              <p className=" text-3xl md:text-6xl text-center">
                 Deploy frontier AI in your environment, or consume as a service
                 or from one of our cloud partner
               </p>

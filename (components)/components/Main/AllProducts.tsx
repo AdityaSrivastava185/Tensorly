@@ -7,7 +7,7 @@ const AllProducts = () => {
       <section className="section">
         <div className="pt-10 lg:pt-20 pb-10 lg:pb-20">
           <div className="w-full text-center py-7">
-            <h2 className="md:text-6xl">Do it all with Tensorly</h2>
+            <h2 className="text-3xl md:text-6xl">Do it all with Tensorly</h2>
           </div>
           <div className="w-full flex items-end justify-center lg:-translate-x-9 translate-y-1">
             <div className="hidden lg:block markitecture-block-rotated absolute lg:relative aspect-square w-15 h-15 shrink-0 rotate-45 origin-bottom-right -translate-x-10 border border-[#27272b] bg-[#1a1a1e]"></div>
@@ -16,9 +16,9 @@ const AllProducts = () => {
               className="group bg-orange-600 w-full lg:w-100 h-34 lg:h-50 border border-[#27272b]"
             >
               <div className="origin-bottom-right lg:group-hover:-translate-x-10 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start border bg-[#101013]  border-[#27272b]">
-                <div className="">
-                  <p className="text-h5">Vibe</p>
-                  <p className="text-body-small">
+                <div className="w-full h-full flex flex-col items-start justify-between">
+                  <p className="text-3xl md:text-2xl">Vibe</p>
+                  <p className="text-lg">
                     AI Agent for long-horizon work
                   </p>
                 </div>
@@ -27,15 +27,16 @@ const AllProducts = () => {
           </div>
           <div className="w-full flex flex-row flex-wrap lg:flex-nowrap items-end justify-center lg:translate-x-8.5 translate-y-0.5">
             <div className="hidden lg:block aspect-square h-50 shrink-0 border border-r-0 border-[#27272b] bg-[#27272b]"></div>
+            
             <Link
               href={""}
-              className="bg-blue-600 group bg-text-brand-2 w-1/2 lg:w-50 h-40 lg:h-50"
+              className="bg-blue-600 group bg-text-brand-2 w-full lg:w-50 h-40 lg:h-50"
             >
-              <div className="origin-bottom-left lg:group-hover:-translate-x-10 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
-                <div>
-                  <p className="">Studio</p>
+              <div className="lg:group-hover:-translate-x-10 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
+                <div className="w-full h-full flex flex-col items-start justify-between">
+                  <p className="text-3xl md:text-2xl">Studio</p>
 
-                  <p className="">Build, test, and run AI agents and apps.</p>
+                  <p className="text-lg">Build, test, and run AI agents and apps.</p>
                 </div>
               </div>
             </Link>
@@ -44,21 +45,21 @@ const AllProducts = () => {
               className="group bg-cyan-500 w-full lg:w-50 h-30 lg:h-50"
             >
               <div className="origin-bottom-right lg:group-hover:translate-x-10 duration-300 transition-[cubic-bezier(0, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-l-0 border-[#27272b]">
-                <div>
-                  <p className="">Forge</p>
+                <div className="flex flex-col items-start justify-between w-full h-full">
+                  <p className="text-3xl md:text-2xl">Forge</p>
 
-                  <p className="">Train, align and evaluate custom AI</p>
+                  <p className="text-lg">Train, align and evaluate custom AI</p>
                 </div>
               </div>
             </Link>
             <div className="hidden lg:block w-20 shrink-0"></div>
             <Link
               href={""}
-              className="group bg-[#101013]  border border-[#27272b] w-1/2 lg:w-50 h-40 lg:h-50"
+              className="group bg-[#101013]  border border-[#27272b] w-full lg:w-50 h-40 lg:h-50"
             >
               <div className="origin-bottom-right lg:group-hover:rotate-12 group-hover:shadow-box transition-all transition-[cubic-bezier(0, 0, 0.2, 1)] p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
-                <div>
-                  <p className="">Applied AI Services</p>
+                <div className="flex flex-col h-full w-full items-start justify-center">
+                  <p className="text-3xl md:text-2xl">Applied AI Services</p>
                 </div>
               </div>
             </Link>
@@ -71,7 +72,7 @@ const AllProducts = () => {
               >
                 <div className="lg:group-hover:translate-x-20 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
                   <div className="aspect-square w-8 flex justify-center items-center">
-                    <span className="relative inline-block w-7">
+                    <span className="relative inline-block w-7 text-3xl md:text-2xl">
                       Frontier models
                     </span>
                   </div>
@@ -87,13 +88,12 @@ const AllProducts = () => {
                 className="group bg-cyan-400 z-20 w-full lg:w-100 h-40 lg:h-50 shrink-0 border border-[#27272b]"
               >
                 <div className="lg:group-hover:translate-x-20 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] ">
-                  <div className="aspect-square w-8 flex justify-center items-center bg-orange-medium text-white"></div>
-
-                  <div>
-                    <p className="">
+                  
+                  <div className="flex flex-col items-start justify-between h-full w-full">
+                    <p className="text-3xl md:text-2xl">
                       AI Cloud
                     </p>
-                    <p className="">
+                    <p className="text-lg">
                       Frontier-scale infrastructure for training and inference.
                     </p>
                   </div>

@@ -16,11 +16,11 @@ const AutonomousWorkCard = ({
       <div className="border-y border-[#27272b]">
         <div className="flex min-h-26 w-full items-center justify-between px-4 py-6 md:px-6">
           <div>
-            <p className="text-5xl">{title}</p>
+            <p className="text-3xl lg:text-5xl">{title}</p>
           </div>
 
           <button className="flex items-center gap-3 rounded-md bg-[#202023] px-4 py-3 text-lg">
-            <span>{buttonText}</span>
+            <span className="text-md lg:text-base">{buttonText}</span>
 
             <span className="text-lg">
               <svg
@@ -45,7 +45,7 @@ const AutonomousWorkCard = ({
 
       {/* Description */}
       <div className="px-4 py-6 md:px-6">
-        <p className="text-base md:text-xl">{description}</p>
+        <p className="text-lg md:text-xl">{description}</p>
       </div>
 
       {/* Image + Tags */}

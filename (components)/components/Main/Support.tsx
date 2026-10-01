@@ -33,9 +33,9 @@ const Support = () => {
   return (
     <div className="container">
       <section className="section">
-        <div className=" p-7 flex flex-col gap-7">
+        <div className=" p-3 lg:p-7 flex flex-col gap-7">
           <div>
-            <p className="text-7xl">Support by expert folks</p>
+            <p className="text-3xl lg:text-7xl">Support by expert folks</p>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div>
@@ -44,8 +44,8 @@ const Support = () => {
                 that drives impact
               </p>
             </div>
-            <div>
-              <button className="flex items-center gap-3 rounded-md bg-[#202023] px-4 py-3 text-lg">
+            <div className="w-full md:w-fit pt-5 md:pt-0">
+              <button className="flex items-center justify-between md:justify-center gap-3 rounded-md bg-[#202023] px-4 py-3 text-lg w-full">
                 <span>Explore services</span>
 
                 <span className="text-lg">
@@ -69,7 +69,7 @@ const Support = () => {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-0">
               {supportCarditems.map((item) => (
                 <Link
                   href={""}
@@ -102,7 +102,7 @@ const Support = () => {
                       </span>
                     </button>
                     <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out md:group-hover:grid-rows-[1fr]">
-                      <div className="overflow-hidden">
+                      <div className="md:overflow-hidden">
                         <p className="text-xl pt-2">{item.description}</p>
                       </div>
                     </div>

@@ -23,17 +23,18 @@ const Deploy = () => {
     <div className="border border-[#27272b]">
       <section className="container section">
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-0 lg:grid-cols-3 px-4 md:px-0">
             {deployItems.map((item) => (
               <div
                 key={item.title}
-                className="flex flex-col items-start justify-between border-x border-[#27272b] p-5 md:h-[400px]"
+                className="flex flex-col items-start justify-between border border-[#27272b] p-5 py-10 rounded-sm md:min-h-0 md:h-[400px] md:rounded-none md:border-x md:border-y-0
+            "
               >
                 <div>
                   <p className="text-3xl">{item.title}</p>
                 </div>
 
-                <div>
+                <div className="py-3 md:py-0">
                   <p>{item.description}</p>
                 </div>
               </div>

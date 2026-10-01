@@ -34,7 +34,7 @@ const Navbar = () => {
 
             <div className="items-center divide-x divide-[#27272b] flex">
               <Link
-                className={`${navItemClass} border-l border-[#27272b]`}
+                className={`${navItemClass} border-l border-[#27272b] hidden md:block`}
                 href=""
               >
                 Start building
