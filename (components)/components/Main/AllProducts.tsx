@@ -6,7 +6,7 @@ const AllProducts = () => {
     <div className="container">
       <section className="section">
         <div className="pt-10 pb-10 lg:pt-20 lg:pb-20">
-          <div className="w-full py-7 text-center">
+          <div className="w-full py-7 text-center md:max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-6xl">
               Everything you need to build with AI
             </h2>
@@ -119,12 +119,13 @@ const AllProducts = () => {
                   </div>
                 </div>
               </Link>
+              <div className="flex flex-row items-end">
+                <div className="tech-dot tech-dot-top-right z-10 hidden aspect-square h-20 shrink-0 border-x-0 bg-[#27272b] lg:block" />
 
-              <div className="tech-dot tech-dot-top-right z-10 hidden aspect-square h-20 shrink-0 border-x-0 bg-[#27272b] lg:block" />
+                <div className="hidden aspect-square h-50 shrink-0 border-y-0 border-[#27272b] bg-[#1a1a1e] lg:block" />
 
-              <div className="hidden aspect-square h-50 shrink-0 border-y-0 border-[#27272b] bg-[#1a1a1e] lg:block" />
-
-              <div className="absolute right-0 bottom-0 hidden aspect-square h-15 w-15 shrink-0 -translate-x-4.5 rotate-45 origin-bottom-right border border-[#27272b] bg-[#27272b] lg:relative lg:block" />
+                <div className="absolute right-0 bottom-0 hidden aspect-square h-15 w-15 shrink-0 -translate-x-4.5 rotate-45 origin-bottom-right border border-[#27272b] bg-[#27272b] lg:relative lg:block" />
+              </div>
             </div>
           </div>
         </div>

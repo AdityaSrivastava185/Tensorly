@@ -8,7 +8,7 @@ import Deploy from './Deploy'
 
 const Main = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Hero/>
       <AllProducts/>
       <AutonomousWork/>

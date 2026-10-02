@@ -13,7 +13,7 @@ const supportCarditems = [
     title: "Implementation teams.",
     description:
       "Work with engineers and AI specialists to design, build, and launch systems around your organization.",
-    buttonText: "Explore Implementation",
+    buttonText: "Explore teams",
     url: "/",
   },
   {
@@ -72,7 +72,7 @@ const Support = () => {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-0">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-0">
               {supportCarditems.map((item) => (
                 <Link
                   href={""}

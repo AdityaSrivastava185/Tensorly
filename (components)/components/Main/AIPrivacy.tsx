@@ -11,8 +11,8 @@ const AIPrivacy = () => {
                 AI DEVELOPMENT DESIGNED WITH PRIVACY
               </p>
             </div>
-            <div className="max-w-6xl mx-auto">
-              <p className=" text-3xl md:text-6xl text-center">
+            <div className="max-w-6xl md:max-w-3xl xl:max-w-6xl mx-auto">
+              <p className="text-3xl md:text-4xl xl:text-6xl text-center">
                 Deploy Tensorly AI within your own infrastructure, run it
                 through the cloud, or access it as a managed service.
               </p>

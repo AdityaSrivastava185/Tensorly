@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="w-full h-full pt-20 lg:h-[50dvh] lg:pt-0">
         <div className="flex h-full flex-col justify-between md:flex-row">
           <div className="flex flex-col justify-end px-7 py-10 md:py-0 md:pb-10">
-            <h1 className="text-5xl font-thin md:font-normal leading-[0.95] sm:text-6xl md:text-7xl lg:text-8xl">
+            <h1 className="text-5xl font-thin md:font-normal leading-[0.95] sm:text-6xl xl:text-8xl">
               Frontier AI
               <br />
               Around your work
@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
 
           <div className="w-full max-w-[70%] lg:max-w-[30%] lg:border-b lg:border-l lg:border-[#27272b] lg:bg-[#1a1a1e] px-5 lg:p-7 md:flex md:items-end">
-            <p className="text-xl text-balance lg:text-4xl -my-4">
+            <p className="text-xl md:text-2xl text-balance xl:text-4xl -my-4">
               Build intelligent systems around your data, workflows, and
               organization with the flexibility to shape AI around your needs.
             </p>

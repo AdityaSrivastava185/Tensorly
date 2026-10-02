@@ -13,7 +13,7 @@ const FooterCta = () => {
           </div>
 
           <div className="mt-3 max-w-4xl">
-            <p className="text-3xl leading-tight sm:text-4xl lg:text-5xl">
+            <p className="text-3xl leading-tight sm:text-4xl xl:text-5xl">
               Build, customize, and deploy tailored AI solutions with complete
               control over your build
             </p>
