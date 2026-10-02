@@ -11,14 +11,14 @@ const Hero = () => {
             <h1 className="text-5xl font-thin md:font-normal leading-[0.95] sm:text-6xl md:text-7xl lg:text-8xl">
               Frontier AI
               <br />
-              In your hands
+              Around your work
             </h1>
           </div>
 
           <div className="w-full max-w-[70%] lg:max-w-[30%] lg:border-b lg:border-l lg:border-[#27272b] lg:bg-[#1a1a1e] px-5 lg:p-7 md:flex md:items-end">
             <p className="text-xl text-balance lg:text-4xl -my-4">
-              We help organizations build tailored AI systems to solve the
-              world&apos;s hardest problems.
+              Build intelligent systems around your data, workflows, and
+              organization with the flexibility to shape AI around your needs.
             </p>
           </div>
         </div>
@@ -40,8 +40,8 @@ const Hero = () => {
 
         <div className="hidden w-full px-7 py-8 md:flex md:max-w-[30%] md:items-end md:px-7 md:py-0">
           <p className="w-fit rounded-md px-3 py-1 text-xl text-balance text-orange-600">
-            Tensorly is focused to build sovereign, open-weight AI technology
-            frontier.
+            Tensorly gives teams the tools to build, customize, and deploy AI
+            systems with greater control.
           </p>
         </div>
       </div>

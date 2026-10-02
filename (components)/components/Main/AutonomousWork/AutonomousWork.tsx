@@ -2,93 +2,85 @@ import AutonomousWorkCard from "@/(components)/utility/AutonomousWorkCard";
 import IconList from "@/(components)/utility/IconList";
 import React from "react";
 
-
 const autonomousWorkItems = [
   {
-    title: "Autonomous work.",
+    title: "Intelligent agents.",
     description:
-      "AI agent for long-horizon tasks, fluent in your knowledge and tools.",
-    buttonText: "Discover Vibe",
+      "Build agents that reason through complex tasks, use your tools, and adapt to the way your team works.",
+    buttonText: "Explore Agents",
     image: "/image-1.webp",
-    imageAlt: "Autonomous work",
+    imageAlt: "Intelligent agents",
     tags: [
-      "ENTERPRISE KNOWLEDGE SEARCH",
-      "STRUCTURED DATA ANALYSIS",
-      "DOCUMENT AND REPORT SYNTHESIS",
-      "MULTI-STEP TASK SCHEDULING",
-      "PERSISTENT MEMORY AND REUSABLE SKILLS",
+      "MULTI-STEP REASONING",
+      "TOOL USE",
+      "TASK AUTOMATION",
+      "WORKFLOW EXECUTION",
+      "PERSISTENT CONTEXT",
     ],
   },
 
   {
-    title: "Another product.",
+    title: "Knowledge systems.",
     description:
-      "Build intelligent systems that work across your data, tools, and workflows.",
-    buttonText: "Discover Product",
+      "Connect AI to your organization's knowledge and turn scattered information into useful, searchable context.",
+    buttonText: "Explore Knowledge",
     image: "/image-2.webp",
-    imageAlt: "Another product",
+    imageAlt: "Knowledge systems",
+    tags: [
+      "KNOWLEDGE SEARCH",
+      "DOCUMENT UNDERSTANDING",
+      "SEMANTIC RETRIEVAL",
+      "PRIVATE DATA",
+    ],
+  },
+
+  {
+    title: "Model development.",
+    description:
+      "Experiment with models, evaluate their behavior, and adapt them for the problems that matter to your organization.",
+    buttonText: "Explore Models",
+    image: "/image-3.webp",
+    imageAlt: "Model development",
+    tags: ["MODEL EVALUATION", "FINE-TUNING", "BENCHMARKING", "REASONING"],
+  },
+
+  {
+    title: "Production AI.",
+    description:
+      "Move AI workflows from prototypes into reliable applications with infrastructure built for real-world workloads.",
+    buttonText: "Explore Production",
+    image: "/image-4.webp",
+    imageAlt: "Production AI",
+    tags: ["AI DEPLOYMENT", "SCALABLE INFERENCE", "OBSERVABILITY", "SECURITY"],
+  },
+
+  {
+    title: "Data intelligence.",
+    description:
+      "Turn complex datasets and business information into insights, reports, and actions with AI-assisted analysis.",
+    buttonText: "Explore Data",
+    image: "/image-5.webp",
+    imageAlt: "Data intelligence",
     tags: [
       "DATA ANALYSIS",
-      "AUTOMATION",
-      "WORKFLOW EXECUTION",
-      "TOOL USE",
+      "REPORT GENERATION",
+      "STRUCTURED DATA",
+      "INSIGHT EXTRACTION",
     ],
   },
 
   {
-    title: "AI systems.",
+    title: "AI applications.",
     description:
-      "Create powerful AI systems designed for complex real-world tasks.",
-    buttonText: "Explore AI Systems",
-    image: "/image-3.webp",
-    imageAlt: "AI systems",
-    tags: [
-      "AI AGENTS",
-      "KNOWLEDGE",
-      "REASONING",
-      "AUTOMATION",
-    ],
-  },
-
-  {
-    title: "Enterprise AI.",
-    description:
-      "Deploy AI capabilities across your organization with powerful workflows.",
-    buttonText: "Discover Enterprise AI",
-    image: "/image-4.webp",
-    imageAlt: "Enterprise AI",
-    tags: [
-      "ENTERPRISE AI",
-      "SECURITY",
-      "KNOWLEDGE SEARCH",
-    ],
-  },
-
-  {
-    title: "Research.",
-    description:
-      "Explore new approaches to building useful and capable AI systems.",
-    buttonText: "Explore Reseach",
-    image: "/image-5.webp",
-    imageAlt: "Research",
-    tags: [
-      "RESEARCH",
-      "MODELS",
-      "REASONING",
-    ],
-  },
-
-  {
-    title: "Future of AI.",
-    description:
-      "Build the next generation of intelligent applications and agents.",
-    buttonText: "Learn more",
+      "Create tailored AI experiences that fit directly into the tools, processes, and products your teams already use.",
+    buttonText: "Explore Applications",
     image: "/image-6.webp",
-    imageAlt: "Future of AI",
+    imageAlt: "AI applications",
     tags: [
-      "AGENTS",
-      "APPLICATIONS",
-      "AI SYSTEMS",
+      "AI APPLICATIONS",
+      "CUSTOM WORKFLOWS",
+      "API INTEGRATION",
+      "TEAM AUTOMATION",
     ],
   },
 ];
@@ -103,17 +95,15 @@ const AutonomousWork = () => {
             <div className="hidden md:col-span-2 md:block">
               <div className="sticky top-0 flex h-dvh flex-col justify-between px-4 py-20">
                 <div />
-                <IconList/>
+                <IconList />
               </div>
             </div>
 
             {/* ================= RIGHT SIDE ================= */}
             <div className="col-span-1 border-[#27272b] md:col-span-8 md:border-x">
-              {
-                autonomousWorkItems.map((item) => (
-                  <AutonomousWorkCard key={item.title} {...item}/>
-                ))
-              }
+              {autonomousWorkItems.map((item) => (
+                <AutonomousWorkCard key={item.title} {...item} />
+              ))}
             </div>
           </div>
         </div>

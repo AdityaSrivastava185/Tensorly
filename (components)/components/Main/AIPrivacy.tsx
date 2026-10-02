@@ -13,8 +13,8 @@ const AIPrivacy = () => {
             </div>
             <div className="max-w-6xl mx-auto">
               <p className=" text-3xl md:text-6xl text-center">
-                Deploy frontier AI in your environment, or consume as a service
-                or from one of our cloud partner
+                Deploy Tensorly AI within your own infrastructure, run it
+                through the cloud, or access it as a managed service.
               </p>
             </div>
           </div>

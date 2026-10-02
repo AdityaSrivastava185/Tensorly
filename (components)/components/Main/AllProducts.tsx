@@ -5,112 +5,126 @@ const AllProducts = () => {
   return (
     <div className="container">
       <section className="section">
-        <div className="pt-10 lg:pt-20 pb-10 lg:pb-20">
-          <div className="w-full text-center py-7">
-            <h2 className="text-3xl md:text-6xl">Do it all with Tensorly</h2>
+        <div className="pt-10 pb-10 lg:pt-20 lg:pb-20">
+          <div className="w-full py-7 text-center">
+            <h2 className="text-3xl md:text-6xl">
+              Everything you need to build with AI
+            </h2>
           </div>
-          <div className="w-full flex items-end justify-center lg:-translate-x-9 translate-y-1">
-            <div className="hidden lg:block markitecture-block-rotated absolute lg:relative aspect-square w-15 h-15 shrink-0 rotate-45 origin-bottom-right -translate-x-10 border border-[#27272b] bg-[#1a1a1e]"></div>
+
+          {/* Agents */}
+          <div className="flex w-full translate-y-1 items-end justify-center lg:-translate-x-9">
+            <div className="markitecture-block-rotated absolute hidden aspect-square h-15 w-15 shrink-0 rotate-45 origin-bottom-right -translate-x-10 border border-[#27272b] bg-[#1a1a1e] lg:relative lg:block" />
+
             <Link
               href={""}
-              className="group bg-orange-600 w-full lg:w-100 h-34 lg:h-50 border border-[#27272b]"
+              className="group h-34 w-full border border-[#27272b] bg-orange-600 lg:h-50 lg:w-100"
             >
-              <div className="origin-bottom-right lg:group-hover:-translate-x-10 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start border bg-[#101013]  border-[#27272b]">
-                <div className="w-full h-full flex flex-col items-start justify-between">
-                  <p className="text-3xl md:text-2xl">Vibe</p>
-                  <p className="text-lg">
-                    AI Agent for long-horizon work
+              <div className="flex h-full w-full flex-col items-start justify-between border border-[#27272b] bg-[#101013] p-3 transition-all duration-500 origin-bottom-right lg:group-hover:-translate-x-10 group-hover:shadow-box transition-[cubic-bezier(0.4,0,0.2,1)]">
+                <div className="flex h-full w-full flex-col items-start justify-between">
+                  <p className="text-3xl md:text-2xl">Agents</p>
+
+                  <p className="text-md">
+                    Build intelligent agents that reason, act, and work across
+                    your tools.
                   </p>
                 </div>
               </div>
             </Link>
           </div>
-          <div className="w-full flex flex-row flex-wrap lg:flex-nowrap items-end justify-center lg:translate-x-8.5 translate-y-0.5">
-            <div className="hidden lg:block aspect-square h-50 shrink-0 border border-r-0 border-[#27272b] bg-[#27272b]"></div>
-            
+
+          {/* Workbench / Model Lab / AI Solutions */}
+          <div className="flex w-full flex-row flex-wrap items-end justify-center translate-y-0.5 lg:flex-nowrap lg:translate-x-8.5">
+            <div className="hidden aspect-square h-50 shrink-0 border border-r-0 border-[#27272b] bg-[#27272b] lg:block" />
+
+            {/* Workbench */}
             <Link
               href={""}
-              className="bg-blue-600 group bg-text-brand-2 w-full lg:w-50 h-40 lg:h-50"
+              className="group h-40 w-full bg-blue-600 lg:h-50 lg:w-50"
             >
-              <div className="lg:group-hover:-translate-x-10 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
-                <div className="w-full h-full flex flex-col items-start justify-between">
-                  <p className="text-3xl md:text-2xl">Studio</p>
+              <div className="flex h-full w-full flex-col items-start justify-between border border-[#27272b] bg-[#101013] p-3 transition-all duration-500 lg:group-hover:-translate-x-10 group-hover:shadow-box transition-[cubic-bezier(0.4,0,0.2,1)]">
+                <div className="flex h-full w-full flex-col items-start justify-between">
+                  <p className="text-3xl md:text-2xl">Workbench</p>
 
-                  <p className="text-lg">Build, test, and run AI agents and apps.</p>
+                  <p className="text-md">
+                    Design, test, and iterate on AI workflows in one place.
+                  </p>
                 </div>
               </div>
             </Link>
+
+            {/* Model Lab */}
             <Link
               href={""}
-              className="group bg-cyan-500 w-full lg:w-50 h-30 lg:h-50"
+              className="group h-30 w-full bg-cyan-500 lg:h-50 lg:w-50"
             >
-              <div className="origin-bottom-right lg:group-hover:translate-x-10 duration-300 transition-[cubic-bezier(0, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-l-0 border-[#27272b]">
-                <div className="flex flex-col items-start justify-between w-full h-full">
-                  <p className="text-3xl md:text-2xl">Forge</p>
+              <div className="flex h-full w-full flex-col items-start justify-between border border-l-0 border-[#27272b] bg-[#101013] p-3 transition-all duration-300 lg:group-hover:translate-x-10 group-hover:shadow-box transition-[cubic-bezier(0,0,0.2,1)]">
+                <div className="flex h-full w-full flex-col items-start justify-between">
+                  <p className="text-3xl md:text-2xl">Model Lab</p>
 
-                  <p className="text-lg">Train, align and evaluate custom AI</p>
+                  <p className="text-md">
+                    Adapt, evaluate, and optimize models for specialized tasks.
+                  </p>
                 </div>
               </div>
             </Link>
-            <div className="hidden lg:block w-20 shrink-0"></div>
+
+            <div className="hidden w-20 shrink-0 lg:block" />
+
+            {/* AI Solutions */}
             <Link
               href={""}
-              className="group bg-[#101013]  border border-[#27272b] w-full lg:w-50 h-40 lg:h-50"
+              className="group h-40 w-full border border-[#27272b] bg-[#101013] lg:h-50 lg:w-50"
             >
-              <div className="origin-bottom-right lg:group-hover:rotate-12 group-hover:shadow-box transition-all transition-[cubic-bezier(0, 0, 0.2, 1)] p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
-                <div className="flex flex-col h-full w-full items-start justify-center">
-                  <p className="text-3xl md:text-2xl">Applied AI Services</p>
+              <div className="flex h-full w-full flex-col items-start justify-between border border-[#27272b] bg-[#101013] p-3 transition-all group-hover:shadow-box lg:group-hover:rotate-12">
+                <div className="flex h-full w-full items-center justify-center">
+                  <p className="text-3xl md:text-2xl">AI Solutions</p>
                 </div>
               </div>
             </Link>
           </div>
-          <div className="w-full flex flex-row flex-wrap lg:flex-nowrap items-end justify-center lg:translate-x-6 translate-y-px">
-            <div className="w-full flex flex-row flex-wrap lg:flex-nowrap items-end justify-center lg:translate-x-6 translate-y-px ">
+
+          {/* Models / Compute */}
+          <div className="flex w-full flex-row flex-wrap items-end justify-center translate-y-px lg:flex-nowrap lg:translate-x-6">
+            <div className="flex w-full flex-row flex-wrap items-end justify-center translate-y-px lg:flex-nowrap lg:translate-x-6">
+              {/* Tensorly Models */}
               <Link
                 href="/"
-                className="z-20 group  w-full lg:w-50 h-30 lg:h-50 bg-orange-600"
+                className="group z-20 h-30 w-full bg-orange-600 lg:h-50 lg:w-50"
               >
-                <div className="lg:group-hover:translate-x-20 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] group-hover:shadow-box transition-all p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] border border-[#27272b]">
-                  <div className="aspect-square w-8 flex justify-center items-center">
+                <div className="flex h-full w-full flex-col items-start justify-between border border-[#27272b] bg-[#101013] p-3 transition-all duration-500 lg:group-hover:translate-x-20 group-hover:shadow-box transition-[cubic-bezier(0.4,0,0.2,1)]">
+                  <div className="flex aspect-square w-8 items-center justify-center">
                     <span className="relative inline-block w-7 text-3xl md:text-2xl">
-                      Frontier models
+                      Tensorly Models
                     </span>
                   </div>
                 </div>
               </Link>
 
-              <div
-                className="hidden lg:block aspect-square h-20 shrink-0 bg-[#27272b]"
-              />
+              <div className="hidden aspect-square h-20 shrink-0 bg-[#27272b] lg:block" />
 
+              {/* Tensorly Compute */}
               <Link
                 href="/"
-                className="group bg-cyan-400 z-20 w-full lg:w-100 h-40 lg:h-50 shrink-0 border border-[#27272b]"
+                className="group z-20 h-40 w-full shrink-0 border border-[#27272b] bg-cyan-400 lg:h-50 lg:w-100"
               >
-                <div className="lg:group-hover:translate-x-20 duration-500 transition-[cubic-bezier(0.4, 0, 0.2, 1)] p-3 w-full h-full flex flex-col justify-between items-start bg-[#101013] ">
-                  
-                  <div className="flex flex-col items-start justify-between h-full w-full">
-                    <p className="text-3xl md:text-2xl">
-                      AI Cloud
-                    </p>
+                <div className="flex h-full w-full flex-col items-start justify-between bg-[#101013] p-3 transition-all duration-500 lg:group-hover:translate-x-20">
+                  <div className="flex h-full w-full flex-col items-start justify-between">
+                    <p className="text-3xl md:text-2xl">Tensorly Compute</p>
+
                     <p className="text-lg">
-                      Frontier-scale infrastructure for training and inference.
+                      Scalable infrastructure for training, deploying, and
+                      running AI workloads.
                     </p>
                   </div>
                 </div>
               </Link>
 
-              <div
-                className="hidden tech-dot tech-dot-top-right z-10 lg:block aspect-square h-20 shrink-0 bg-[#27272b] border-x-0"
-              />
+              <div className="tech-dot tech-dot-top-right z-10 hidden aspect-square h-20 shrink-0 border-x-0 bg-[#27272b] lg:block" />
 
-              <div
-                className="hidden lg:block aspect-square h-50 shrink-0 border-y-0  bg-[#1a1a1e] border-[#27272b]"
-              />
+              <div className="hidden aspect-square h-50 shrink-0 border-y-0 border-[#27272b] bg-[#1a1a1e] lg:block" />
 
-              <div
-                className="hidden lg:block absolute right-0 bottom-0 lg:relative aspect-square w-15 h-15 shrink-0 rotate-45 origin-bottom-right -translate-x-4.5 bg-[#27272b] border border-[#27272b] "
-              />
+              <div className="absolute right-0 bottom-0 hidden aspect-square h-15 w-15 shrink-0 -translate-x-4.5 rotate-45 origin-bottom-right border border-[#27272b] bg-[#27272b] lg:relative lg:block" />
             </div>
           </div>
         </div>

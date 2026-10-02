@@ -3,28 +3,31 @@ import React from "react";
 
 const supportCarditems = [
   {
-    title: "Use Accelearation",
-    description: "Prioritize high-value use cases and take them to production",
-    buttonText: "Explore Accelearation",
-    url: "/",
-  },
-  {
-    title: "Elite AI expertise.",
+    title: "AI strategy.",
     description:
-      "A cross-functional team that takes initiatives from kickoff to production at scale.",
-    buttonText: "Explore AI Expertise",
+      "Identify the right opportunities for AI and turn promising ideas into practical production systems.",
+    buttonText: "Explore AI Strategy",
     url: "/",
   },
   {
-    title: "Deep customization.",
-    description: "Customize and optimize models for your domain.",
-    buttonText: "Explore Customizations",
+    title: "Implementation teams.",
+    description:
+      "Work with engineers and AI specialists to design, build, and launch systems around your organization.",
+    buttonText: "Explore Implementation",
     url: "/",
   },
   {
-    title: "Enterprise activation.",
-    description: "Deploy AI in your environment with full controls",
-    buttonText: "Explore Enterprise Activation",
+    title: "Custom AI.",
+    description:
+      "Adapt models, workflows, and knowledge systems to fit your domain and specific business requirements.",
+    buttonText: "Explore Custom AI",
+    url: "/",
+  },
+  {
+    title: "Production deployment.",
+    description:
+      "Bring AI into your existing environment with the infrastructure, security, and controls needed to operate at scale.",
+    buttonText: "Explore Deployment",
     url: "/",
   },
 ];

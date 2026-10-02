@@ -5,12 +5,12 @@ const footerItems = [
   {
     title: "Products",
     items: [
-      { name: "Vibe", href: "/" },
-      { name: "Vibe Code", href: "/" },
-      { name: "Studio", href: "/" },
-      { name: "Forge", href: "/" },
-      { name: "Compute", href: "/" },
-      { name: "Pricing", href: "/" },
+      { name: "Agents", href: "/" },
+      { name: "Workbench", href: "/" },
+      { name: "Model Lab", href: "/" },
+      { name: "AI Solutions", href: "/" },
+      { name: "Tensorly Models", href: "/" },
+      { name: "Tensorly Compute", href: "/" },
     ],
   },
 

@@ -2,19 +2,19 @@ import React from "react";
 
 const deployItems = [
   {
-    title: "Self-hosted.",
+    title: "Private infrastructure.",
     description:
-      "Deploy Studio on virtual cloud, edge, or on-premises. Self-hosted deployments offer more advanced levels of customization and control. Your data stays within your walls.",
+      "Run Tensorly within your own cloud, data center, or edge environment. Keep your models and data under your control while configuring the platform around your infrastructure.",
   },
   {
-    title: "Tensorly cloud.",
+    title: "Tensorly Cloud.",
     description:
-      "Get started with Studio hosted on Tensorly's infrastructure and build your own applications and services with our API.",
+      "Build and deploy AI applications on Tensorly's managed infrastructure with scalable compute, APIs, and tools for production workloads.",
   },
   {
-    title: "Cloud provider.",
+    title: "Cloud partners.",
     description:
-      "Access the power of Studio via your preferred cloud provider (Google Cloud, AWS, Azure, SAP, IBM, Snowflake, NVIDIA, Outscale) using your cloud credit.",
+      "Run Tensorly through supported cloud environments and use your existing infrastructure and cloud resources to deploy AI workloads.",
   },
 ];
 
