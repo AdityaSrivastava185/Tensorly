@@ -5,6 +5,7 @@ const AllProducts = () => {
   return (
     <div className="container">
       <section className="section">
+         <p className="px-3 text-sm">Image Source - <Link href={"https://mistral.ai/"} className="text-orange-600 text-sm">Mistral AI</Link></p>
         <div className="pt-10 pb-10 lg:pt-20 lg:pb-20">
           <div className="w-full py-7 text-center md:max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-6xl">

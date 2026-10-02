@@ -55,8 +55,8 @@ const FooterItems = () => {
   return (
     <div>
       {/* Footer links */}
-      <div className="xl:container">
-        <section className="xl:section">
+      <div className="container">
+        <section className="section">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             {footerItems.map((section) => (
               <div

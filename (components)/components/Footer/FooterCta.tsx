@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FooterCta = () => {
@@ -18,6 +19,7 @@ const FooterCta = () => {
               control over your build
             </p>
           </div>
+           <p className="text-sm">Image Source - <Link href={"https://mistral.ai/"} className="text-sm text-foreground underline">Mistral AI</Link></p>
         </div>
 
         {/* Buttons */}

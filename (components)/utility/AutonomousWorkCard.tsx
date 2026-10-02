@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { AutonomousWorkCardProps } from "@/Types/AutonomousWorkItemsType";
+import Link from "next/link";
 
 const AutonomousWorkCard = ({
   title,
@@ -57,6 +58,15 @@ const AutonomousWorkCard = ({
           alt={imageAlt}
           className="h-auto w-full object-contain"
         />
+        <p className="text-sm">
+          Image Source -
+          <Link
+            href={"https://mistral.ai/"}
+            className="text-orange-600 text-sm"
+          >
+            Mistral AI
+          </Link>
+        </p>
 
         <div className="flex flex-wrap gap-2 py-6">
           {tags.map((item) => (
