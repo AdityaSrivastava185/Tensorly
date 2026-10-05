@@ -23,7 +23,7 @@ const Deploy = () => {
     <div className="border border-[#27272b]">
       <section className="container section">
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-0 lg:grid-cols-3 px-4 md:px-0">
+          <div className="grid grid-cols-1 md:gap-0 md:grid-cols-3 px-4 md:px-0">
             {deployItems.map((item) => (
               <div
                 key={item.title}

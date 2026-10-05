@@ -3,7 +3,8 @@ import React from "react";
 
 const AllProducts = () => {
   return (
-    <div className="container">
+
+    <div className="container overflow-hidden">
       <section className="section">
          <p className="px-3 text-sm">Image Source - <Link href={"https://mistral.ai/"} className="text-orange-600 text-sm">Mistral AI</Link></p>
         <div className="pt-10 pb-10 lg:pt-20 lg:pb-20">

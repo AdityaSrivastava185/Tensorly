@@ -41,7 +41,7 @@ const Support = () => {
             <p className="text-3xl lg:text-7xl">Support by expert folks</p>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div>
+            <div className="md:max-w-[50%] ">
               <p className="text-xl">
                 Work with world-class AI scientists to enable transformation
                 that drives impact
