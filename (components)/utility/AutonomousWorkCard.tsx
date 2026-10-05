@@ -14,13 +14,13 @@ const AutonomousWorkCard = ({
   return (
     <div className="">
       {/* Header */}
-      <div className="border-y border-[#27272b]">
+      <div className="border-y border-surface-dark">
         <div className="flex min-h-26 w-full items-center justify-between px-4 py-6 md:px-6">
           <div>
             <p className="text-3xl lg:text-5xl">{title}</p>
           </div>
 
-          <button className="flex items-center gap-3 rounded-md bg-[#202023] px-4 py-3 text-lg">
+          <button className="flex items-center gap-3 rounded-md bg-primary-dark px-4 py-3 text-lg">
             <span className="text-md lg:text-base">{buttonText}</span>
 
             <span className="text-lg">
@@ -62,7 +62,7 @@ const AutonomousWorkCard = ({
           Image Source -
           <Link
             href={"https://mistral.ai/"}
-            className="text-orange-600 text-sm"
+            className="text-primary text-sm"
           >
             Mistral AI
           </Link>
@@ -72,7 +72,7 @@ const AutonomousWorkCard = ({
           {tags.map((item) => (
             <span
               key={item}
-              className="bg-[#1c1c1f] px-2 py-1 font-mono uppercase"
+              className="bg-tag-background px-2 py-1 font-mono uppercase"
             >
               {item}
             </span>

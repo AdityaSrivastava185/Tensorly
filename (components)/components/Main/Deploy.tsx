@@ -20,14 +20,14 @@ const deployItems = [
 
 const Deploy = () => {
   return (
-    <div className="border border-[#27272b]">
+    <div className="border border-surface-dark">
       <section className="container section">
         <div>
           <div className="grid grid-cols-1 md:gap-0 md:grid-cols-3 px-4 md:px-0">
             {deployItems.map((item) => (
               <div
                 key={item.title}
-                className="flex flex-col items-start justify-between border border-[#27272b] p-5 py-10 rounded-sm md:min-h-0 md:h-[400px] md:rounded-none md:border-x md:border-y-0
+                className="flex flex-col items-start justify-between border border-surface-dark p-5 py-10 rounded-sm md:min-h-0 md:h-[400px] md:rounded-none md:border-x md:border-y-0
             "
               >
                 <div>

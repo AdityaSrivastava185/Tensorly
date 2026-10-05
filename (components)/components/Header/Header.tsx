@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div>
+    <div className='w-full border-b border-surface-dark'>
       <Navbar/>
     </div>
   )

@@ -48,7 +48,7 @@ const Support = () => {
               </p>
             </div>
             <div className="w-full md:w-fit pt-5 md:pt-0">
-              <button className="flex items-center justify-between md:justify-center gap-3 rounded-md bg-[#202023] px-4 py-3 text-lg w-full">
+              <button className="flex items-center justify-between md:justify-center gap-3 rounded-md bg-primary-dark px-4 py-3 text-lg w-full">
                 <span>Explore services</span>
 
                 <span className="text-lg">
@@ -77,7 +77,7 @@ const Support = () => {
                 <Link
                   href={""}
                   key={item.title}
-                  className="flex flex-col items-start justify-between h-[420px] bg-[#1a1a1e] p-7 border border-[#27272b] group md:hover:bg-transparent"
+                  className="flex flex-col items-start justify-between h-[420px] bg-surface p-7 border border-surface-dark group md:hover:bg-transparent"
                 >
                   <div>
                     <p className="text-2xl">{item.title}</p>

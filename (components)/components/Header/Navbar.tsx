@@ -16,14 +16,14 @@ const Navbar = () => {
   return (
     <div className="container">
       <nav className="section">
-        <div className="max-w-full border border-[#27272b]">
+        <div className="max-w-full">
           <div className="flex items-center justify-between">
-            <div className="flex items-center divide-x divide-[#27272b]">
+            <div className="flex items-center divide-x divide-surface-dark">
               <div className={navItemClass}>
                 <h1>Tensorly</h1>
               </div>
 
-              <div className="hidden xl:flex divide-x divide-[#27272b] border-r border-[#27272b]">
+              <div className="hidden xl:flex divide-x divide-surface-dark border-r border-surface-dark">
                 {navItems.map((item) => (
                   <div key={item} className={navItemClass}>
                     <Link href="/">{item}</Link>
@@ -32,9 +32,9 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="items-center divide-x divide-[#27272b] flex">
+            <div className="items-center divide-x divide-surface-dark flex">
               <Link
-                className={`${navItemClass} border-l border-[#27272b] hidden md:block`}
+                className={`${navItemClass} border-l border-surface-dark hidden md:block`}
                 href=""
               >
                 Start building

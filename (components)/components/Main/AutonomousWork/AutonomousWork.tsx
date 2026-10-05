@@ -100,7 +100,7 @@ const AutonomousWork = () => {
             </div>
 
             {/* ================= RIGHT SIDE ================= */}
-            <div className="col-span-1 border-[#27272b] md:col-span-8 md:border-x">
+            <div className="col-span-1 border-surface-dark md:col-span-8 md:border-x">
               {autonomousWorkItems.map((item) => (
                 <AutonomousWorkCard key={item.title} {...item} />
               ))}

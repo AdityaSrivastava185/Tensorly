@@ -61,11 +61,11 @@ const FooterItems = () => {
             {footerItems.map((section) => (
               <div
                 key={section.title}
-                className="border-b border-[#27272b] sm:border-x sm:border-b lg:border-x lg:border-b-0"
+                className="border-b border-surface-dark sm:border-x sm:border-b lg:border-x lg:border-b-0"
               >
                 <div className="p-5 sm:p-6 md:p-7">
                   <div className="pb-3">
-                    <p className="text-xl text-[#6d6d78] md:text-xl">
+                    <p className="text-xl text-muted md:text-xl">
                       {section.title}
                     </p>
                   </div>
@@ -75,7 +75,7 @@ const FooterItems = () => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="transition-colors duration-200 hover:text-[#ff5229]"
+                        className="transition-colors duration-200 hover:text-primary"
                       >
                         {item.name}
                       </a>
@@ -89,15 +89,15 @@ const FooterItems = () => {
       </div>
 
       {/* Bottom footer */}
-      <div className="border border-[#27272b]">
-        <div className="container flex flex-col gap-5 border-x border-[#27272b] p-5 sm:p-6 md:flex-row md:items-center md:justify-between md:p-7">
+      <div className="border border-surface-dark">
+        <div className="container flex flex-col gap-5 border-x border-surface-dark p-5 sm:p-6 md:flex-row md:items-center md:justify-between md:p-7">
           {/* Source */}
           <div className="text-lg">
             <span>
               Source and Inspiration from{" "}
               <Link
                 href="https://mistral.ai/"
-                className="text-[#ff5229] transition-colors hover:text-[#ff5229]/80"
+                className="text-primary transition-colors hover:text-primary/80"
               >
                 Mistral AI
               </Link>
@@ -106,19 +106,19 @@ const FooterItems = () => {
 
           {/* Legal / brand links */}
           <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-2 md:justify-end md:text-base">
-            <Link href="" className="hover:text-[#ff5229]">
+            <Link href="" className="hover:text-primary">
               Tensorly
             </Link>
 
-            <Link href="" className="hover:text-[#ff5229]">
+            <Link href="" className="hover:text-primary">
               Privacy policy
             </Link>
 
-            <Link href="" className="hover:text-[#ff5229]">
+            <Link href="" className="hover:text-primary">
               Terms and conditions
             </Link>
 
-            <Link href="" className="hover:text-[#ff5229]">
+            <Link href="" className="hover:text-primary">
               Terms of use
             </Link>
           </div>

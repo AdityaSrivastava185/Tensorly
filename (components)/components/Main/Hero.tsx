@@ -16,7 +16,7 @@ const Hero = () => {
             </h1>
           </div>
 
-          <div className="w-full max-w-none px-5 lg:flex lg:max-w-[30%] lg:items-end lg:border-b lg:border-l lg:border-[#27272b] lg:bg-[#1a1a1e] lg:p-7">
+          <div className="w-full max-w-none px-5 lg:flex lg:max-w-[30%] lg:items-end lg:border-b lg:border-l lg:border-surface-dark lg:bg-surface lg:p-7">
             <p className="my-0 text-xl text-balance sm:text-2xl lg:-my-4 xl:text-4xl">
               Build intelligent systems around your data, workflows, and
               organization with the flexibility to shape AI around your needs.
@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
 
         <div className="hidden w-full px-7 py-8 md:flex lg:max-w-[30%] md:items-end md:px-7 ">
-          <p className="w-fit rounded-md px-3 py-1 text-xl text-balance text-orange-600">
+          <p className="w-fit rounded-md px-3 py-1 text-xl text-balance text-primary">
             Tensorly gives teams the tools to build, customize, and deploy AI
             systems with greater control.
           </p>

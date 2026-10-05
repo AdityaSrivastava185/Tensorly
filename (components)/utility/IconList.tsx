@@ -6,7 +6,7 @@ const IconList = () => {
   return (
     <div className="flex flex-col gap-2">
       {/* Icon 1 */}
-      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#27272b]">
+      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-dark">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -27,7 +27,7 @@ const IconList = () => {
       </div>
 
       {/* Icon 2 */}
-      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#27272b]">
+      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-dark">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -50,7 +50,7 @@ const IconList = () => {
       </div>
 
       {/* Icon 3 */}
-      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#27272b]">
+      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-dark">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -70,7 +70,7 @@ const IconList = () => {
       </div>
 
       {/* Icon 4 */}
-      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#27272b]">
+      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-dark">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -88,7 +88,7 @@ const IconList = () => {
       </div>
 
       {/* Icon 5 */}
-      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#27272b]">
+      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-dark">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -119,7 +119,7 @@ const IconList = () => {
       </div>
 
       {/* Icon 6 */}
-      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#27272b]">
+      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-surface-dark">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
