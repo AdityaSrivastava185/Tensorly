@@ -4,7 +4,7 @@ const AIPrivacy = () => {
   return (
     <div className="container">
       <section className="section">
-        <div className="py-7 md:py-20">
+        <div className="py-7 md:py-20 px-4 md:px-0">
           <div className="flex flex-col items-center justify-center gap-3">
             <div>
               <p className="text-sm text-center">
@@ -12,7 +12,7 @@ const AIPrivacy = () => {
               </p>
             </div>
             <div className="max-w-6xl md:max-w-3xl xl:max-w-6xl mx-auto">
-              <p className="text-3xl md:text-4xl xl:text-6xl text-center">
+              <p className="text-2xl md:text-4xl xl:text-6xl text-center">
                 Deploy Tensorly AI within your own infrastructure, run it
                 through the cloud, or access it as a managed service.
               </p>

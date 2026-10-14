@@ -15,12 +15,12 @@ const AutonomousWorkCard = ({
     <div className="">
       {/* Header */}
       <div className="border-y border-surface-dark">
-        <div className="flex min-h-26 w-full items-center justify-between px-4 py-6 md:px-6">
-          <div>
+        <div className="flex flex-col md:flex-row min-h-26 w-full md:items-center md:justify-between px-4 py-6 md:px-6">
+          <div className="py-2">
             <p className="text-3xl lg:text-5xl">{title}</p>
           </div>
 
-          <button className="flex items-center gap-3 rounded-md bg-primary-dark px-4 py-3 text-lg">
+          <button className="flex items-center justify-between gap-3 rounded-md bg-primary-dark px-4 py-3 text-lg w-full md:w-fit">
             <span className="text-md lg:text-base">{buttonText}</span>
 
             <span className="text-lg">
